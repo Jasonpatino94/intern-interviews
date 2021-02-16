@@ -4,12 +4,12 @@
 
   chevronUps.forEach(chevron => {
     const index = chevron.parentNode.getAttribute('index')
-    chevron.addEventListener('click', () => window.changeDialValue(index, 1))
+    chevron.addEventListener('click', (e) => window.changeDialValue(index, 1, e))
   })
 
   chevronDowns.forEach(chevron => {
     const index = chevron.parentNode.getAttribute('index')
-    chevron.addEventListener('click', () => window.changeDialValue(index, -1))
+    chevron.addEventListener('click', (e) => window.changeDialValue(index, -1, e))
   })
 
   window.mobx.autorun(() => {

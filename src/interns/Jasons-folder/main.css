@@ -1,0 +1,32 @@
+h1{
+    font-family: "Helvetica Neue", 'calibri';
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+}
+body{
+    font-family: "Helvetica Neue", 'calibri';
+    font-weight: bold;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image: url(https://c.tadst.com/gfx/750w/flag-day.jpg) 
+}
+
+img{
+    border-radius: 10px;
+    width: 500px;
+}
+
+.grad{
+    width: 200px;
+}
+
+.fireDepartment{
+    margin-bottom: 35px;
+}
+.text{
+    background-color: black;
+}
